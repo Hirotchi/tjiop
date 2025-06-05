@@ -323,14 +323,9 @@
     "ARTICLE_VIEW_PAGE_WITH_BLOGPOSTID_TEMPLATE": "/p/{blogPostId}.html"
   },
   "API_ENDPOINTS": {
-    "IP_ADDRESS_APIS": [
-        "https://api.ipify.org?format=json",
-        "https://ipinfo.io/json",
-        "https://ipapi.co/json/",
-        "https://api.myip.com"
-    ],
+    "IP_ADDRESS_API": "https://api.ipify.org?format=json",
     "BLOGGER_FEED_URL_TEMPLATE": "https://www.blogger.com/feeds/{blogId}/posts/default/{postId}?alt=json-in-script"
-},
+  },
   "CONFIG": {
     "SHORTLINK_SECRET_KEY": "122655221",
     "BLOGGER_ID": "96921919663024854",
